@@ -1,0 +1,100 @@
+.background {
+    background: linear-gradient(0deg, #EFF1F7 50%, rgba(255,255,255,1) 50%);
+}
+
+.result {
+    background-color: #EFF1F7;
+    padding: 1rem 10%;
+    
+}
+
+.shortlink {
+    margin: 4rem 10% 0 10%;
+    width: 80%;
+    padding: 3rem 2rem;
+    background: url('../../img/bg-shorten-desktop.svg'), hsl(257, 27%, 26%);
+    background-size: cover;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+}
+
+.shortlink input {
+    width: 75%;
+    height: 4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1.25rem;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+}
+
+.linkInput {
+    border: none;
+}
+
+.linkInput::placeholder {
+    color: hsl(257, 7%, 63%);
+    font-weight: 700;
+}
+
+.inputError {
+    border: solid 3px hsl(0, 87%, 67%, 0.9);
+}
+
+.inputError::placeholder {
+    color: hsl(0, 87%, 67%, 0.6);
+    font-weight: 700;
+}
+
+.shortlink input:focus {
+    border: none;
+    outline: none;
+    color: hsl(260, 8%, 14%);
+}
+
+.shortlink button {
+    width: 15%;
+    height: 4rem;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.shortlink button:hover {
+    background-color: rgb(155,227,226);
+    cursor: pointer;
+}
+
+.shortlink p {
+    color: hsl(0, 87%, 67%, 0.7);
+    font-style: italic;
+    position: absolute;
+    left: 4.5rem;
+    bottom: 0.3rem;
+}
+
+@media (max-width: 964px) {
+    .shortlink {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shortlink input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .shortlink button {
+        width: 100%;
+    }
+
+    .shortlink p {
+        position: relative;
+        left: 0;
+        text-align: left;
+    }
+}

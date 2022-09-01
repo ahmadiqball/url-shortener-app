@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    padding: 10rem 10% 2rem 10%;
+    overflow: hidden;
+}
+
+.content {
+    text-align: left;
+}
+
+.content h1 {
+    font-weight: 900;
+    font-size: 4rem;
+    color: hsl(255, 11%, 22%);
+    line-height: 5rem;
+}
+
+.content p {
+    color: hsl(257, 7%, 63%);
+    font-size: 1.5rem;
+}
+
+.content button {
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 30px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 1rem 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.content button:hover {
+    background-color: rgb(155,227,226);
+    cursor: pointer;
+}
+
+.image {
+    width: 150%;
+    height: 100%;
+}
+
+@media (max-width: 964px) {
+    .header {
+        flex-direction: column-reverse;
+    }
+
+    .content {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}

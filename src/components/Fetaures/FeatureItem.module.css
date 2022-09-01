@@ -1,0 +1,44 @@
+.card {
+    background-color: white;
+    text-align: left;
+    margin: 1rem;
+    border-radius: 5px;
+    padding: 1.75rem;
+    padding-top: 4.5rem;
+    flex: 1 1 0;
+    position: relative;
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    color: hsl(260, 8%, 14%);
+}
+
+.card p {
+    color: hsl(257, 7%, 63%);
+    font-size: 0.9rem;
+}
+
+.round {
+    background-color: hsl(257, 27%, 26%);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+}
+
+.round img {
+    margin: 1.25rem;
+    width: 40px;
+}
+
+@media (max-width: 964px) {
+    .card {
+        text-align: center;
+    }
+
+    .round {
+        left: calc(50% - 2.5rem);
+    }
+}
