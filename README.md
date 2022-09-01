@@ -3,6 +3,7 @@
 Create a URL Shortener APP, the design resources is from a challenge at frontendmentor.io
 
 - ReactJs
+- React Bootstrap
 - URL Shortener API from [https://shrtco.de/docs](https://shrtco.de/docs)
 
 # Github Pages
