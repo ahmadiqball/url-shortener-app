@@ -8,7 +8,7 @@ Create a URL Shortener APP, the design resources is from a challenge at frontend
 
 # Github Pages
 
-[https://ahmadiqbal.github.io/url-shortener-app](https://ahmadiqbal.github.io/url-shortener-app)
+[https://ahmadiqball.github.io/url-shortener-app](https://ahmadiqball.github.io/url-shortener-app)
 
 # Use this repo
 
